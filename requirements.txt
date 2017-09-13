@@ -1,0 +1,15 @@
+flask
+flask-assets
+janrain-python-api
+requests
+cython
+#pyjnius
+# we need to use a fork of pyjnius until our pull request is approved
+#git+https://github.com/InvalidCo/pyjnius#egg=pyjnius
+git+https://github.com/InvalidCo/pyjnius@7e41567eff1c9fafa9be932cd687d54c634a23ee#egg=pyjnius
+flask-nav
+git+https://github.com/aleehedl/python-checkout
+mailer
+Flask-Babel
+xmltodict
+coverage
