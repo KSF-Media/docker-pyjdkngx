@@ -1,0 +1,13 @@
+flask
+flask-assets
+janrain-python-api
+requests
+cython
+# Pinned to our specific commit waiting for the new release
+git+https://github.com/InvalidCo/pyjnius@7e41567eff1c9fafa9be932cd687d54c634a23ee#egg=pyjnius
+flask-nav
+git+https://github.com/aleehedl/python-checkout
+mailer
+Flask-Babel
+xmltodict
+coverage
