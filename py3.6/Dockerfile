@@ -24,7 +24,7 @@ COPY conf/supervisord.conf /etc/supervisor/conf.d/
 RUN pip install --upgrade pip
 
 # Installing cython before, because needed to compile pyjnius in next step
-RUN pip install cython
+RUN pip install cython==0.26.1
 # Copy requirements to root and install
 COPY requirements.txt /app
 RUN pip install -r requirements.txt
