@@ -1,4 +1,4 @@
-checkout==0.2.0
+git+https://github.com/aleehedl/python-checkout@4d89e60b532ff040dd87b8ca20e2313bea83967a#egg=checkout
 click==6.7
 coverage==4.4.1
 dominate==2.3.1
@@ -19,7 +19,6 @@ visitor==0.1.3
 webassets==0.12.1
 Werkzeug==0.12.2
 xmltodict==0.11.0
-
 Babel==2.5.1
 certifi==2017.7.27.1
 chardet==3.0.4
@@ -28,4 +27,4 @@ idna==2.6
 requests==2.18.4
 six==1.11.0
 urllib3==1.22
-uWSGI==2.0.13.1
+uWSGI==2.0.15
