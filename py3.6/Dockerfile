@@ -4,14 +4,14 @@ MAINTAINER Christoffer Holmberg <christoffer.holmberg@ksfmedia.fi>
 
 # Install node and less
 RUN echo "deb http://httpredir.debian.org/debian jessie contrib" >> /etc/apt/sources.list
-RUN echo "deb http://httpredir.debian.org/debian jessie-backports main" >> /etc/apt/sources.list
+RUN echo "deb http://httpredir.debian.org/debian jessie-backports main contrib" >> /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get install -y -qq npm
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 RUN npm install -g less
 
 # Install JDK
-RUN  apt-get install -t jessie-backports -y -qq openjdk-8-jdk 
+RUN  apt-get install -t jessie-backports -y -qq openjdk-8-jdk
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 
 # Copy app configuration to Nginx
