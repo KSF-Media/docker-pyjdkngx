@@ -31,3 +31,5 @@ Werkzeug==0.12.2
 xmltodict==0.11.0
 python_dateutil>=2.5.3
 setuptools>=21.0.0
+vcrpy==1.11.1
+vcrpy-unittest==0.1.6
