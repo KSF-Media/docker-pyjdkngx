@@ -33,3 +33,4 @@ python_dateutil>=2.5.3
 setuptools>=21.0.0
 vcrpy==1.11.1
 vcrpy-unittest==0.1.6
+python-json-logger==0.1.8
