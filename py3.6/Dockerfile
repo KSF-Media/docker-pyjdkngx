@@ -8,7 +8,7 @@ RUN apt-get update
 RUN apt-get install -y -qq node-less
 
 # Install JDK
-RUN  apt-get install -t jessie-backports -y -qq openjdk-8-jdk
+RUN  apt-get install -y -qq openjdk-8-jdk
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 
 # Copy app configuration to Nginx
