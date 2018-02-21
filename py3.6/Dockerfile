@@ -2,13 +2,13 @@ FROM tiangolo/uwsgi-nginx:python3.6
 
 MAINTAINER Christoffer Holmberg <christoffer.holmberg@ksfmedia.fi>
 
-# Install node and less
+# Install less
 RUN echo "deb http://httpredir.debian.org/debian stretch contrib" >> /etc/apt/sources.list
 RUN apt-get update
 RUN apt-get install -y -qq node-less
 
 # Install JDK
-RUN  apt-get install -t jessie-backports -y -qq openjdk-8-jdk 
+RUN  apt-get install -t jessie-backports -y -qq openjdk-8-jdk
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 
 # Copy app configuration to Nginx
