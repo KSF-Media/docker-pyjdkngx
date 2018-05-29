@@ -36,3 +36,5 @@ vcrpy-unittest==0.1.6
 python-json-logger==0.1.8
 psycopg2-binary==2.7.4
 pq==1.5
+SQLAlchemy==1.2.8 
+Flask-SQLAlchemy==2.3.2
