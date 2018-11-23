@@ -41,3 +41,4 @@ Flask-SQLAlchemy==2.3.2
 pyrsistent==0.14.7
 flask-log-request-id==0.10.0
 git+https://github.com/posix4e/flask-zipkin@b798be40f32641dff8df11b87b0dc94129308b7f#egg=flask-zipkin
+git+https://github.com/KSF-Media/persona-python-client@b00679ab29bba6620a32494de9fcf6c5e10784bc#egg=persona
