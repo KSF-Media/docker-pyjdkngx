@@ -11,12 +11,6 @@ RUN apt-get install -y -qq node-less
 RUN  apt-get install -y -qq openjdk-8-jdk
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 
-# Copy app configuration to Nginx
-COPY conf/nginx.conf /etc/nginx/conf.d/
-
-# Copy app configuration to supervisor
-COPY conf/supervisord.conf /etc/supervisor/conf.d/
-
 # Upgrade pip
 RUN pip install --upgrade pip
 
@@ -25,3 +19,6 @@ RUN pip install cython==0.26.1
 # Copy requirements to root and install
 COPY requirements.txt /app
 RUN pip install -r requirements.txt
+
+# Copy app configuration to supervisor
+COPY conf/supervisord.conf /etc/supervisor/conf.d/
