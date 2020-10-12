@@ -11,9 +11,6 @@ janrain-python-api==0.4.0
 Jinja2==2.10
 jinja2-cli==0.6.0
 mailer==0.8.1
-MarkupSafe==1.0
-#pyjnius==1.1.2.dev0
-git+https://github.com/kivy/pyjnius@d2ef91b73ee7dc6ae9ca3042fc1fc6de6565c237#egg=pyjnius
 pytz==2017.2
 PyYAML==4.2b2
 visitor==0.1.3
