@@ -8,7 +8,7 @@ Flask-Babel==0.12.2
 flask-nav==0.6
 itsdangerous==1.1.0
 janrain-python-api==0.4.0
-Jinja2==2.10
+Jinja2==2.11.3
 jinja2-cli==0.6.0
 mailer==0.8.1
 pytz==2017.2
