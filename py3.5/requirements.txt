@@ -24,7 +24,7 @@ MarkupSafe==1.0
 #pyjnius==1.1.2.dev0
 git+https://github.com/InvalidCo/pyjnius@7e41567eff1c9fafa9be932cd687d54c634a23ee#egg=pyjnius
 pytz==2017.2
-PyYAML==4.2b2
+PyYAML==5.4
 visitor==0.1.3
 webassets==0.12.1
 Werkzeug==0.15.3
