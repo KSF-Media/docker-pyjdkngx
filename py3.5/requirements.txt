@@ -5,7 +5,7 @@ Cython==0.26.1
 idna==2.6
 requests==2.20.1
 six==1.11.0
-urllib3==1.24.2
+urllib3==1.26.5
 uWSGI==2.0.16
 git+https://github.com/aleehedl/python-checkout@4d89e60b532ff040dd87b8ca20e2313bea83967a#egg=checkout
 click==6.7
