@@ -27,7 +27,7 @@ pytz==2017.2
 PyYAML==4.2b2
 visitor==0.1.3
 webassets==0.12.1
-Werkzeug==0.15.3
+Werkzeug==0.15.5
 xmltodict==0.11.0
 python_dateutil>=2.5.3
 setuptools>=21.0.0
